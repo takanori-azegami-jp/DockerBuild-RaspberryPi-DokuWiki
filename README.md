@@ -10,6 +10,7 @@ PS C:\>  docker-compose up -d --build
 ~~~
 http:// [DockerホストのIPアドレス] :8080
 ~~~
+![image](https://user-images.githubusercontent.com/81016034/147951531-e1b0fc59-d908-4a3b-9944-23a7e1d99e75.png)
 
 ## 参考
 [docker-composeを利用してDokuWikiを構築する](https://mebee.info/2020/07/04/post-13052/)
