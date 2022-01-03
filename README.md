@@ -6,8 +6,14 @@ docker-compose.ymlを配置したフォルダに移動して実行
 ~~~powershell
 PS C:\>  docker-compose up -d --build
 ~~~
+## ブラウザからURLでDokuWikiに接続
+~~~
+http:// [DockerホストのIPアドレス] :8080
+~~~
 
 ## 参考
 [docker-composeを利用してDokuWikiを構築する](https://mebee.info/2020/07/04/post-13052/)
 
-[bitnami/dokuwiki](https://github.com/bitnami/bitnami-docker-dokuwiki)
+RaspberryPi(arm32bit)環境でビルドされた下記のDockerイメージを使用
+[Docker Hub：xtremxpert/rpi-dokuwiki](https://hub.docker.com/r/xtremxpert/rpi-dokuwiki)
+
