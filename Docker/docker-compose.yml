@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  dokuwiki:
+    image: 'docker pull bitnami/dokuwiki'
+    ports:
+      - '80:80'
+      - '443:443'
+    environment:
+      DOKUWIKI_USERNAME: admin
+      DOKUWIKI_PASSWORD: admin
+    volumes:
+      - $PWD/dokuwiki_data:/bitnami/dokuwiki'
+volumes:
+  dokuwiki_data:
+    driver: local
