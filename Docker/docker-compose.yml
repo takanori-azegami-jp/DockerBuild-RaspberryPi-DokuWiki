@@ -1,8 +1,7 @@
 version: '3.8'
 services:
   dokuwiki:
-    image: 'bitnami/dokuwiki:latest'
-    
+    image: 'docker.io/bitnami/dokuwiki:20200729'
     restart: unless-stopped
     ports:
       - '8080:80'
