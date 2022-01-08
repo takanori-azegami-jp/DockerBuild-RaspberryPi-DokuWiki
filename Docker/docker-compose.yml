@@ -11,7 +11,7 @@ services:
       DOKUWIKI_USERNAME: admin
       DOKUWIKI_PASSWORD: admin
     volumes:
-      - dokuwiki_data:/bitnami/dokuwiki
+      - dokuwiki_data:/dokuwiki
 volumes:
   dokuwiki_data:
     driver: local
