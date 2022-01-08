@@ -2,6 +2,7 @@ version: '3.8'
 services:
   dokuwiki:
     image: 'xtremxpert/rpi-dokuwiki'
+    container_name: dokuwiki
     restart: unless-stopped
     ports:
       - '8080:80'
@@ -10,7 +11,7 @@ services:
       DOKUWIKI_USERNAME: admin
       DOKUWIKI_PASSWORD: admin
     volumes:
-      - $PWD/dokuwiki_data:/bitnami/dokuwiki
+      - dokuwiki_data:/bitnami/dokuwiki
 volumes:
   dokuwiki_data:
     driver: local
