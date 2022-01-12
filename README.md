@@ -1,5 +1,5 @@
 # DockerBuild-RaspberryPi-DokuWiki
-RaspberryPi(32bit)にDockerでDokuWikiをたてる
+RaspberryPi(32bit)にDockerでDokuWikiを構築
 
 ## コンテナ起動
 docker-compose.ymlを配置したフォルダに移動して実行
